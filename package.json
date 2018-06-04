@@ -1,0 +1,22 @@
+{
+  "name": "ts-mutex",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/ts-mutex",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "devDependencies": {
+    "assert-rejects": "^0.1.1",
+    "mocha": "^5.2.0",
+    "p-sleep": "^1.1.0",
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
